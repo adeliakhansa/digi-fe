@@ -56,5 +56,5 @@ php artisan key:generate
 php artisan serve
 npm run dev
 ```
-
+![Preview](public/images/preview.png)
 
