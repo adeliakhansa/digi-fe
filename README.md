@@ -29,7 +29,6 @@ This project is a custom **Landing Page** built using the [Laravel](https://lara
 
 ### Installation
 
-1. Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/your-project-name.git
@@ -37,7 +36,6 @@ cd your-project-name
 ```
 ### Install Dependencies
 
-2. Clone the repository:
 
 ```bash
 composer install
@@ -46,11 +44,17 @@ npm install
 
 ### Set Up Environment
 
-3. Clone the repository:
 
 ```bash
 cp .env.example .env
 php artisan key:generate
+```
+
+### Run Development Server
+
+```bash
+php artisan serve
+npm run dev
 ```
 
 
